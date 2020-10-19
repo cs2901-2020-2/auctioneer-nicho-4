@@ -11,8 +11,8 @@ public class Auctioneer implements Subject {
     }
 
     //Se actualiza el precio de la subasta para el subastador
-    public void update(int price_auctioneer) {
-        price = price_auctioneer;
+    public void update(int priceAuctioneer) {
+        price = priceAuctioneer;
     }
 
     @Override
