@@ -29,9 +29,11 @@ public class Auctioneer implements Subject {
             observ.update(price);
         }
     }
+
     public int getPrice(){
         return this.price;
     }
+    
     public int getSizeList(){
         return this.observerList.size();
     }

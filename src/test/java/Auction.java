@@ -39,8 +39,5 @@ public class Auction {
         auctioneer.removeObserver(observera);
         Assert.assertEquals(3,auctioneer.getSizeList());
     }
-    @Test
-    public void test3(){
 
-    }
 }
