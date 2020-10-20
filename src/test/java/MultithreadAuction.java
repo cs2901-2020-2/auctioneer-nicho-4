@@ -3,7 +3,7 @@ import org.testng.annotations.Test;
 @Test
 public class MultithreadAuction {
 
-    @Test(invocationCount = 1000, threadPoolSize = 1000)
+    @Test(invocationCount = 30, threadPoolSize = 30)
     public void testMultithread(){
         
     }
