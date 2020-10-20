@@ -17,12 +17,16 @@ public class Bidder implements Observer {
     }
 
     //El postor da una nueva oferta
-    public void bid(Auctioneer auctioneer){
+    public void bid(Auctioneer auctioneer) {
         if(money > priceAuctioneer && !lastBid){
             lastBid = true;
             auctioneer.update(money);
         } else{
             lastBid = false;
         }
+    }
+
+    public boolean getlastBid(){
+        return this.lastBid;
     }
 }

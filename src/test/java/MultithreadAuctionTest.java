@@ -5,7 +5,7 @@ import cs.lab.Bidder;
 import cs.lab.Observer;
 
 @Test
-public class MultithreadAuction {
+public class MultithreadAuctionTest {
 
     @Test(invocationCount = 100, threadPoolSize = 100)
     public void testMultithread(){
